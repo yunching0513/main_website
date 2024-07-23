@@ -1,0 +1,14 @@
+{
+  "name": "main-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s ."
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  },
+  "author": "Wu Yunching",
+  "license": "ISC"
+}
