@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.container {
+    padding: 5%;
+}
+.language-switcher {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.language-switcher button {
+    background: none; /* Remove background color */
+    border: none; /* Remove border */
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #007BFF; /* Add color to text */
+    transition: color 0.3s;
+}
+.language-switcher button:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+.title, .subtitle, .description {
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+.subtitle {
+    color: #a52a2a;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.description {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column; /* Arrange buttons vertically */
+    align-items: center; /* Center align buttons */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.button {
+    padding: 20px;
+    font-size: 1em;
+    font-weight: bold; /* Make the text bold */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%; /* Make buttons full width */
+    max-width: 800px; /* Ensure buttons are as wide as the subtitle */
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break words if necessary */
+    text-align: center; /* Center align text */
+}
+.button:hover {
+    transform: scale(1.05);
+}
+.button1 { background-color: #f5f5dc; }
+.button2 { background-color: #d3d3d3; }
+.button3 { background-color: #d2b48c; }
+.footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #aaa;
+    text-align: center; /* Keep the footer centered */
+}
+.image-container {
+    text-align: center; /* Center the image */
+    margin-top: 100px; /* Increase the margin to add more space between buttons and image */
+}
+.image {
+    width: 100%; /* Make the image full width */
+    max-width: 800px; /* Ensure image does not exceed its container */
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em; /* Adjust title font size for smaller screens */
+    }
+    .subtitle {
+        font-size: 1.2em; /* Adjust subtitle font size for smaller screens */
+    }
+    .description {
+        font-size: 1em; /* Adjust description font size for smaller screens */
+    }
+    .button {
+        width: 100%; /* Adjust button width for smaller screens */
+    }
+    .subtitle, .description, .footer {
+        max-width: 100%; /* Adjust text container width for smaller screens */
+    }
+    .image {
+        width: 100%; /* Adjust image width for smaller screens */
+    }
+}
