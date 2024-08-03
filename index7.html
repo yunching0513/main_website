@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Street Design Assistant for Road Safety</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('zh-tw')">繁體中文</button>
+            <button onclick="setLanguage('zh-cn')">简体中文</button>
+        </div>
+        <div class="content">
+            <div class="title fade-in" data-lang="en"><strong>Welcome!</strong></div>
+            <div class="title fade-in" data-lang="zh-tw"><strong>歡迎！</strong></div>
+            <div class="title fade-in" data-lang="zh-cn"><strong>欢迎！</strong></div>
+
+            <div class="subtitle fade-in" data-lang="en">Urban Street Design Assistant for Road Safety</div>
+            <div class="subtitle fade-in" data-lang="zh-tw">道路安全的城市街道設計助手</div>
+            <div class="subtitle fade-in" data-lang="zh-cn">道路安全的城市街道设计助手</div>
+
+            <div class="description fade-in" data-lang="en">Inspired by Sustainable Safety & Urban Street Design Guide</div>
+            <div class="description fade-in" data-lang="zh-tw">靈感來自於《永續安全》與《城市街道設計指南》</div>
+            <div class="description fade-in" data-lang="zh-cn">灵感来自于《永续安全》与《城市街道设计指南》</div>
+
+            <div class="button-container">
+                <button class="button button1 fade-in" onclick="window.location.href='https://thecommonroomsams.my.canva.site/sustainable-safety-principles-en'" data-lang="en">Road Safety Principles</button>
+                <button class="button button1 fade-in" onclick="window.location.href='https://streetdesignerprototype.my.canva.site/sustainable-safety-principles-tc'" data-lang="zh-tw">荷蘭《永續安全》原則</button>
+                <button class="button button1 fade-in" onclick="window.location.href='https://thecommonroomsams.my.canva.site/sustainable-safety-principles-sc'" data-lang="zh-cn">荷兰《永续安全》原则</button>
+
+                <button class="button button2 fade-in" onclick="window.location.href='https://nacto.org/publication/urban-street-design-guide/'" data-lang="en">Urban Street Design Guide</button>
+                <button class="button button2 fade-in" onclick="window.location.href='https://nacto.org/publication/urban-street-design-guide/'" data-lang="zh-tw">城市街道設計指南</button>
+                <button class="button button2 fade-in" onclick="window.location.href='https://nacto.org/publication/urban-street-design-guide/'" data-lang="zh-cn">城市街道设计指南</button>
+
+                <button class="button button3 fade-in" onclick="window.location.href='https://chatgpt.com/g/g-XRWLpdIuI-ai-street-design-assistant-english-ver'" data-lang="en">AI Street Design Assistant Tool</button>
+                <button class="button button3 fade-in" onclick="window.location.href='https://chatgpt.com/g/g-lhyBemSH6-ai-jie-dao-she-ji-zhu-shou-fan-zhong-ban'" data-lang="zh-tw">AI 街道設計助手工具</button>
+                <button class="button button3 fade-in" onclick="window.location.href='https://chatgpt.com/g/g-CquVBkKZg-ren-gong-zhi-neng-jie-dao-she-ji-zhu-shou-jian-zhong-ban'" data-lang="zh-cn">AI 街道设计助手工具</button>
+            </div>   
+            <div class="image-container fade-in">
+                <img class="image" src="" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span data-lang="en">Sustainable Safety(SWOV) | NACTO | Open AI | YUNCHING WU </span>
+        <span data-lang="zh-tw">《永續安全》(SWOV) | NACTO | Open AI | YUNCHING WU </span>
+        <span data-lang="zh-cn">《永续安全》(SWOV) | NACTO | Open AI | YUNCHING WU </span>
+    </div>
+</div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
